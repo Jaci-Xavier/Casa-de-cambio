@@ -1,0 +1,29 @@
+{
+  "name": "casa-de-cambio",
+  "version": "1.0.0",
+  "description": "Este projeto foi executado por Jaci Xavier utilizando o exercicio da escola trybe como referencia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaci-Xavier/Casa-de-cambio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaci-Xavier/Casa-de-cambio/issues"
+  },
+  "homepage": "https://github.com/Jaci-Xavier/Casa-de-cambio#readme",
+  "type": "module",
+  "dependencies": {
+    "sweetalert2": "^11.7.1",
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
