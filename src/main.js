@@ -32,13 +32,14 @@ function fetchExportApi(baseCoin) {
     });
 }
 
+
 srcBtn.addEventListener('click', (event) => {
   event.preventDefault();
 
   const input = inputCoin.value;
-  
+  const upperCaseInput = input.toUpperCase();
 
-  if (!input) {
+  if (!upperCaseInput) {
     Swal.fire({
       title: 'Erro',
       text: 'Você precisa digitar uma moeda!',
@@ -46,7 +47,7 @@ srcBtn.addEventListener('click', (event) => {
     });
     return;
   }
-  fetchExportApi(input)
+  fetchExportApi(upperCaseInput)
     .then((data) => {
       const rates = Object.entries(data.rates);
       const ratesObjct = rates.map((rate) => ({
